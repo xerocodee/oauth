@@ -15,7 +15,7 @@
 
 ---
 
-There is XEROCODE if there is React/Typescript and a WebApp or MobileApp. If you only give it a try, you won't want to stop using it. The more websites you make, the more time you'll save.
+Build websites and edit them without writing any code! You can do a lot more, including the integration of APIs and even link it to your current Database.
 
 ---
 
@@ -46,6 +46,17 @@ To implement an advanced microservice-based OAuth system, you need to consider t
 [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+---
+
+### 🧾 Prerequisites
+
+Before starting out, you'll need to install the following on your computer.
+
+[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
+[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/downloads)
+[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+
+---
 ### Quick Start
 ---
 
@@ -73,7 +84,7 @@ CALLBACK_URL=<http://localhost:3000/auth/google/callback>
 ```shell
 mongod
 ```
-A local Mongo instance should start up on mongo://localhost:27017
+A local Mongo instance should start up on `mongo://localhost:27017`
 
 ---
 
