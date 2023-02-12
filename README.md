@@ -1,8 +1,6 @@
-# XeroCodee 👋
-
 ![xerocodee](./public/images/Logo-OAuth.png)
 
-## Readable & Production Ready Codee
+## XeroCodee 👋 - Readable & Production Ready Codee
 
 <img src="https://raw.githubusercontent.com/xerocodee/.github/master/profile/images/xerocodee-open-source.svg" title="XeroCodee">
 
