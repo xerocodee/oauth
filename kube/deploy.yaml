@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: xerocodee-oauth
+spec:
+  selector:
+    app: xerocodee-oauth
+  ports:
+    - port: 80
+      targetPort: 3000
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xerocodee-oauth
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: xerocodee-oauth
+  template:
+    metadata:
+      labels:
+        app: xerocodee-oauth
+    spec:
+      containers:
+        - name: xerocodee-oauth
+          image: a1s1cmd01/xerocodee-oauth:1.0.0
+          ports:
+            - containerPort: 3000
+          env:
+            - name: MONGO_URL
+              value: mongodb://mongo:27017/xerocodee-oauth
+          imagePullPolicy: Always
