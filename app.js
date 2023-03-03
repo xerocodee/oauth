@@ -134,7 +134,7 @@ app.post("/auth/local/signin",
   })
 );
 
-var port = process.env.PORT || process.env.VCAP_APP_PORT || 3000;
+var port = process.env.PORT || process.env.VCAP_APP_PORT || 8080;
 
 app.listen(port, function () {
   console.log(`XeroCodee Authentication Server listening on port ${port}`);
